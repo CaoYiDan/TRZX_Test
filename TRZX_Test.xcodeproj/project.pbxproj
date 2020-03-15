@@ -16,6 +16,7 @@
 		045FC896241E3FBF007FAE9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045FC895241E3FBF007FAE9E /* main.m */; };
 		045FC8A0241E3FBF007FAE9E /* TRZX_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045FC89F241E3FBF007FAE9E /* TRZX_TestTests.m */; };
 		045FC8AB241E3FBF007FAE9E /* TRZX_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045FC8AA241E3FBF007FAE9E /* TRZX_TestUITests.m */; };
+		045FC8BE241E4F16007FAE9E /* TRZX_Test in Resources */ = {isa = PBXBuildFile; fileRef = 045FC8BD241E4F16007FAE9E /* TRZX_Test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		045FC8A6241E3FBF007FAE9E /* TRZX_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZX_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045FC8AA241E3FBF007FAE9E /* TRZX_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZX_TestUITests.m; sourceTree = "<group>"; };
 		045FC8AC241E3FBF007FAE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045FC8BD241E4F16007FAE9E /* TRZX_Test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TRZX_Test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		045FC882241E3FBE007FAE9E /* TRZX_Test */ = {
 			isa = PBXGroup;
 			children = (
+				045FC8BD241E4F16007FAE9E /* TRZX_Test */,
 				045FC883241E3FBE007FAE9E /* AppDelegate.h */,
 				045FC884241E3FBE007FAE9E /* AppDelegate.m */,
 				045FC886241E3FBE007FAE9E /* SceneDelegate.h */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FC8BE241E4F16007FAE9E /* TRZX_Test in Resources */,
 				045FC893241E3FBF007FAE9E /* LaunchScreen.storyboard in Resources */,
 				045FC890241E3FBF007FAE9E /* Assets.xcassets in Resources */,
 				045FC88E241E3FBE007FAE9E /* Main.storyboard in Resources */,
@@ -440,7 +444,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45WLD56GEK;
 				INFOPLIST_FILE = TRZX_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +462,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45WLD56GEK;
 				INFOPLIST_FILE = TRZX_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
